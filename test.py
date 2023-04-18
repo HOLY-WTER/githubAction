@@ -1,12 +1,13 @@
-def test(x):
-    if x==1:
-        print("adasd")
-    if x==2:
-        print("adasd")
-    if x==3:
-        print("adasd")
+def check_num(num):
+    if num == 1:
+        return "One"
+    if num == 2:
+        return "Two"
+    if num == 3:
+        return "Three"
 
 def main():
-    test(2)
-if __name__ == "__main__":
-    main()
+    check_num(2)
+
+
+main()
