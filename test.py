@@ -7,7 +7,7 @@ def check_num(num):
         return "Three"
 
 def main():
-    check_num(2)
+    print(check_num(2))
 
-
-main()
+if __name__ == "__main__":
+    main()
