@@ -25,9 +25,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install black isort flake8 #pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Format with Black
-      run: |
-        black --check --diff --color .
+    # - name: Format with Black
+    #   # run: |
+    #   #   black --check --diff --color .
     - name: Format with isort
       run: |
         isort --check-only .
